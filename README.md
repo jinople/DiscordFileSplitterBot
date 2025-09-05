@@ -1,3 +1,4 @@
+README.md
 FileSplitterBot 🤖
 FileSplitterBot is a powerful and reliable Discord bot designed to handle large file transfers by splitting, uploading, and reassembling files directly from your computer.
 
@@ -65,4 +66,4 @@ All of the bot's commands are slash commands (/). Once your bot is online, it wi
 Support & Monetization
 This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
 
-[Buy me a coffee link]
+https://buymeacoffee.com/jinokin
