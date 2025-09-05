@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### 3. Configuration
 
-Copy `.env.template` to `.env` and enter your credentials:
+Open the `.env` file in the project folder. It already contains the template—just fill in your credentials:
 ```env
 TOKEN="YOUR_BOT_TOKEN_HERE"
 GUILD_ID="YOUR_GUILD_ID_HERE"
