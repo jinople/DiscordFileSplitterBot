@@ -1,67 +1,97 @@
-# FileSplitterBot 🤖
+# DiscordFileSplitterBot 🤖
 
-FileSplitterBot is a powerful and reliable Discord bot designed to handle large file transfers by splitting, uploading, and reassembling files directly from your computer.
-Disclaimer: This project is a proof of concept and is not an officially supported Discord application. It may contain bugs and is not intended for production use.
+Effortlessly bypass Discord's file upload limits! This bot splits, uploads, and reassembles files larger than Discord's standard 8MB cap, letting you use Discord as near-infinite cloud storage.
 
-### Features
+---
 
-- Large File Support: Upload files larger than Discord's standard 8MB limit.
-- Automatic Splitting: The bot automatically splits large files into Discord-friendly chunks.
-- Robust Uploads: The bot is designed to handle rate-limiting and connection issues during long uploads.
-- Local File System Integration: Upload and download files directly to and from your computer.
+[![MIT License](https://img.shields.io/github/license/jinople/DiscordFileSplitterBot)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Last Updated](https://img.shields.io/github/last-commit/jinople/DiscordFileSplitterBot)](https://github.com/jinople/DiscordFileSplitterBot/commits/main)
 
-This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
-https://cash.app/$NexusConcords
+---
 
-### Setup Guide
+## Features
 
-Follow these steps to get your own FileSplitterBot up and running.
+- **Large File Support:** Upload files far bigger than Discord’s native limit.
+- **Automatic Splitting:** Files split into Discord-friendly chunks. No manual work!
+- **Reliable Uploads:** Handles rate limits and connection issues for long uploads.
+- **Local File Integration:** Upload/download directly to and from your machine.
 
-#### 1. Prerequisites
+## Quick Start
 
-You will need the following to run the bot:
+### 1. Prerequisites
 
-- Python 3.9+ installed on your computer.
-- A Discord Bot Token from the Discord Developer Portal.
-- Your Discord Server ID (you can get this by turning on Developer Mode in Discord and right-clicking your server's icon).
+- Python **3.9+** installed.
+- A Discord Bot Token (from the [Discord Developer Portal](https://discord.com/developers/applications)).
+- Your Discord Server ID (see [Finding Your Server ID](#finding-your-server-id)).
 
-#### 2. Project Installation
+### 2. Project Setup
 
-First, clone the project from GitHub and navigate into the project folder.
+Clone the repo and enter the directory:
+```bash
+git clone https://github.com/jinople/DiscordFileSplitterBot.git
+cd DiscordFileSplitterBot
+```
 
-Next, create and activate a virtual environment to manage dependencies:
+#### Virtual Environment (Recommended)
+
+A virtual environment keeps dependencies organized and avoids system conflicts.
 
 ```bash
+# Create virtual environment named "venv"
 python -m venv venv
-# On Windows
-.\venv\Scripts\activate
-# On macOS/Linux
+
+# Activate it:
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
 source venv/bin/activate
-Install all the required libraries using the requirements.txt file:
+```
 
-Bash
-
+Install dependencies:
+```bash
 pip install -r requirements.txt
-3. Configuration
-Copy the .env.template file to a new file named .env. Open the .env file and add your bot token and guild ID:
+```
 
+### 3. Configuration
+
+Copy `.env.template` to `.env` and enter your credentials:
+```env
 TOKEN="YOUR_BOT_TOKEN_HERE"
 GUILD_ID="YOUR_GUILD_ID_HERE"
-4. Running the Bot
-To start the bot, use the start.bat file for Windows or start.sh for macOS/Linux. This will activate the virtual environment and run the main script.
+```
 
-Bash
+### 4. Starting the Bot
 
-# On Windows
+```bash
+# Windows
 start.bat
-# On macOS/Linux
+# macOS/Linux
 sh start.sh
-Your bot will then appear online in your Discord server.
+```
 
-Using the Commands
-All of the bot's commands are slash commands (/). Once your bot is online, it will automatically sync the commands to your server.
+Your bot will now appear online in your Discord server!
 
-upload: Uploads a large file by specifying the local file path and an optional channel name.
+## Usage
 
-download: Downloads and reassembles all the file chunks in the current channel.
+Commands are all **slash commands** (`/`):
 
+- `/upload <file_path> [channel]` — Uploads a file, splitting if needed.
+- `/download` — Downloads and reassembles all chunks in the channel.
+
+## Troubleshooting
+
+- **Bot not appearing online?** Double-check your token and server ID.
+- **Permission errors?** Ensure your bot role can send messages/files.
+
+## Support
+
+This is a passion project—if you find it useful, consider a donation: [cash.app/$NexusConcords](https://cash.app/$NexusConcords)
+
+## License
+
+MIT — Free for personal and non-commercial use.
+
+---
+
+Happy splitting!
