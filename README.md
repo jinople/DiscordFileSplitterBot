@@ -1,4 +1,4 @@
-README.md
+
 FileSplitterBot 🤖
 FileSplitterBot is a powerful and reliable Discord bot designed to handle large file transfers by splitting, uploading, and reassembling files directly from your computer.
 
