@@ -1,34 +1,33 @@
-FileSplitterBot 🤖
+# FileSplitterBot 🤖
+
 FileSplitterBot is a powerful and reliable Discord bot designed to handle large file transfers by splitting, uploading, and reassembling files directly from your computer.
 
-Features
-Large File Support: Upload files larger than Discord's standard 8MB limit.
+### Features
 
-Automatic Splitting: The bot automatically splits large files into Discord-friendly chunks.
+* **Large File Support**: Upload files larger than Discord's standard 8MB limit.
+* **Automatic Splitting**: The bot automatically splits large files into Discord-friendly chunks.
+* **Resumable Downloads**: Pick up a download exactly where you left off if your internet connection fails.
+* **Local File System Integration**: Upload and download files directly to and from your computer.
 
-Robust Uploads: The bot is designed to handle rate-limiting and connection issues during long uploads.
+### Setup Guide
 
-Local File System Integration: Upload and download files directly to and from your computer.
-
-Setup Guide
 Follow these steps to get your own FileSplitterBot up and running.
 
-1. Prerequisites
+#### 1. Prerequisites
+
 You will need the following to run the bot:
 
-Python 3.9+ installed on your computer.
+* **Python 3.9+** installed on your computer.
+* A **Discord Bot Token** from the Discord Developer Portal.
+* Your **Discord Server ID** (you can get this by turning on Developer Mode in Discord and right-clicking your server's icon).
 
-A Discord Bot Token from the Discord Developer Portal.
+#### 2. Project Installation
 
-Your Discord Server ID (you can get this by turning on Developer Mode in Discord and right-clicking your server's icon).
-
-2. Project Installation
 First, clone the project from GitHub and navigate into the project folder.
 
 Next, create and activate a virtual environment to manage dependencies:
 
-Bash
-
+```bash
 python -m venv venv
 # On Windows
 .\venv\Scripts\activate
@@ -58,11 +57,11 @@ Your bot will then appear online in your Discord server.
 Using the Commands
 All of the bot's commands are slash commands (/). Once your bot is online, it will automatically sync the commands to your server.
 
-/upload: Uploads a large file by specifying the local file path and an optional channel name.
+upload: Uploads a large file by specifying the local file path and an optional channel name.
 
-/download: Downloads and reassembles all the file chunks in the current channel.
+download: Downloads and reassembles all the file chunks in the current channel.
 
-/download_from_part: Resumes a failed download from a specific part number.
+download_from_part: Resumes a failed download from a specific part number.
 
 Support & Monetization
 This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
