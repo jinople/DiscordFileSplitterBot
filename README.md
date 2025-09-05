@@ -11,7 +11,7 @@ Disclaimer: This project is a proof of concept and is not an officially supporte
 - Local File System Integration: Upload and download files directly to and from your computer.
 
 This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
-cash.app/NexusConcords
+https://cash.app/$NexusConcords
 
 ### Setup Guide
 
