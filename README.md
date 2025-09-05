@@ -61,8 +61,8 @@ upload: Uploads a large file by specifying the local file path and an optional c
 
 download: Downloads and reassembles all the file chunks in the current channel.
 
-download_from_part: Resumes a failed download from a specific part number.
 
 Support & Monetization
 This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
+
 https://buymeacoffee.com/jinokin
