@@ -1,7 +1,7 @@
 # FileSplitterBot 🤖
 
 FileSplitterBot is a powerful and reliable Discord bot designed to handle large file transfers by splitting, uploading, and reassembling files directly from your computer.
-
+Disclaimer: This project is a proof of concept and is not an officially supported Discord application. It may contain bugs and is not intended for production use.
 ### Features
 
 - Large File Support: Upload files larger than Discord's standard 8MB limit.
