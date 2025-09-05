@@ -3,13 +3,15 @@
 FileSplitterBot is a powerful and reliable Discord bot designed to handle large file transfers by splitting, uploading, and reassembling files directly from your computer.
 Disclaimer: This project is a proof of concept and is not an officially supported Discord application. It may contain bugs and is not intended for production use.
 
-https://buymeacoffee.com/jinokin
 ### Features
 
 - Large File Support: Upload files larger than Discord's standard 8MB limit.
 - Automatic Splitting: The bot automatically splits large files into Discord-friendly chunks.
 - Robust Uploads: The bot is designed to handle rate-limiting and connection issues during long uploads.
 - Local File System Integration: Upload and download files directly to and from your computer.
+
+This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
+https://buymeacoffee.com/jinokin
 
 ### Setup Guide
 
@@ -63,8 +65,3 @@ upload: Uploads a large file by specifying the local file path and an optional c
 
 download: Downloads and reassembles all the file chunks in the current channel.
 
-
-Support & Monetization
-This bot is a passion project, and any support helps cover server costs and encourages continued development. If you find it useful, you can support its development by donating.
-
-https://buymeacoffee.com/jinokin
